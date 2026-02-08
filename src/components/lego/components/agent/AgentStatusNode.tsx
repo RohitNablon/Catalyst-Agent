@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { cn } from '@/lib/utils';
 import { LucideIcon, Brain, CheckCircle2, Clock, PlayCircle, PauseCircle } from 'lucide-react';
 

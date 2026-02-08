@@ -1,4 +1,4 @@
-import { TrendingUp, Sparkles, Shield, Heart, Clock, AlertCircle, TrendingDown, CheckCircle2, ArrowUpRight, ExternalLink, Flame, AlertTriangle, Wrench, Zap, ChevronRight, ChevronDown, MessageCircle, Lightbulb } from 'lucide-react';
+import { TrendingUp, Sparkles, Shield, Heart, Clock, TrendingDown, CheckCircle2, ArrowUpRight, ExternalLink, Flame, AlertTriangle, Wrench, Zap, ChevronRight, ChevronDown, MessageCircle } from 'lucide-react';
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Area, AreaChart, ReferenceDot } from 'recharts';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -141,7 +141,7 @@ export default function Dashboard() {
 
                         {/* Sparkline */}
                         <ResponsiveContainer width="100%" height={40}>
-                            <LineChart data={kpis.marketSentiment.sparklineData.map((val, idx) => ({ value: val }))}>
+                            <LineChart data={kpis.marketSentiment.sparklineData.map((val) => ({ value: val }))}>
                                 <Line
                                     type="monotone"
                                     dataKey="value"

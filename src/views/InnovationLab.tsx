@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {
     Sparkles, Zap, Shield, Mic, Eye, Heart, Clock, DollarSign,
-    TrendingUp, Target, Play, ChevronDown, ChevronUp
+    Play, ChevronDown, ChevronUp
 } from 'lucide-react';
 import { GlassPanel } from '@lego/components/primitives/GlassPanel';
 import { Badge } from '@lego/components/primitives/Badge';
@@ -50,12 +50,12 @@ export default function InnovationLab() {
                         {/* SenseIQ (Original) */}
                         <button
                             onClick={() => setActiveSimulator(activeSimulator === null ? null : null)}
-                            className={`p-4 rounded-lg border transition-all ${activeSimulator === null
-                                ? 'bg-cyan-500/20 border-cyan-500'
-                                : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                }`}
+                            className={`p - 4 rounded - lg border transition - all ${activeSimulator === null
+                                    ? 'bg-cyan-500/20 border-cyan-500'
+                                    : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                } `}
                         >
-                            <Zap className={`w-8 h-8 mb-2 ${activeSimulator === null ? 'text-cyan-400' : 'text-zinc-400'}`} />
+                            <Zap className={`w - 8 h - 8 mb - 2 ${activeSimulator === null ? 'text-cyan-400' : 'text-zinc-400'} `} />
                             <h3 className="text-sm font-semibold text-white mb-1">SenseIQ 2.0</h3>
                             <p className="text-xs text-zinc-500">Adaptive Blade</p>
                         </button>
@@ -63,12 +63,12 @@ export default function InnovationLab() {
                         {/* Voice Control */}
                         <button
                             onClick={() => setActiveSimulator(activeSimulator === 'voice' ? null : 'voice')}
-                            className={`p-4 rounded-lg border transition-all ${activeSimulator === 'voice'
-                                ? 'bg-purple-500/20 border-purple-500'
-                                : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                }`}
+                            className={`p - 4 rounded - lg border transition - all ${activeSimulator === 'voice'
+                                    ? 'bg-purple-500/20 border-purple-500'
+                                    : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                } `}
                         >
-                            <Mic className={`w-8 h-8 mb-2 ${activeSimulator === 'voice' ? 'text-purple-400' : 'text-zinc-400'}`} />
+                            <Mic className={`w - 8 h - 8 mb - 2 ${activeSimulator === 'voice' ? 'text-purple-400' : 'text-zinc-400'} `} />
                             <h3 className="text-sm font-semibold text-white mb-1">Voice Control</h3>
                             <p className="text-xs text-zinc-500">Hands-free AI</p>
                             <Badge color="purple" size="sm" className="mt-2">Tier 3</Badge>
@@ -77,12 +77,12 @@ export default function InnovationLab() {
                         {/* AR Mirror */}
                         <button
                             onClick={() => setActiveSimulator(activeSimulator === 'ar' ? null : 'ar')}
-                            className={`p-4 rounded-lg border transition-all ${activeSimulator === 'ar'
-                                ? 'bg-orange-500/20 border-orange-500'
-                                : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                }`}
+                            className={`p - 4 rounded - lg border transition - all ${activeSimulator === 'ar'
+                                    ? 'bg-orange-500/20 border-orange-500'
+                                    : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                } `}
                         >
-                            <Eye className={`w-8 h-8 mb-2 ${activeSimulator === 'ar' ? 'text-orange-400' : 'text-zinc-400'}`} />
+                            <Eye className={`w - 8 h - 8 mb - 2 ${activeSimulator === 'ar' ? 'text-orange-400' : 'text-zinc-400'} `} />
                             <h3 className="text-sm font-semibold text-white mb-1">AR Mirror</h3>
                             <p className="text-xs text-zinc-500">Visual Guidance</p>
                             <Badge color="orange" size="sm" className="mt-2">Tier 3</Badge>
@@ -91,12 +91,12 @@ export default function InnovationLab() {
                         {/* Skin Health */}
                         <button
                             onClick={() => setActiveSimulator(activeSimulator === 'health' ? null : 'health')}
-                            className={`p-4 rounded-lg border transition-all ${activeSimulator === 'health'
-                                ? 'bg-pink-500/20 border-pink-500'
-                                : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                }`}
+                            className={`p - 4 rounded - lg border transition - all ${activeSimulator === 'health'
+                                    ? 'bg-pink-500/20 border-pink-500'
+                                    : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                } `}
                         >
-                            <Heart className={`w-8 h-8 mb-2 ${activeSimulator === 'health' ? 'text-pink-400' : 'text-zinc-400'}`} />
+                            <Heart className={`w - 8 h - 8 mb - 2 ${activeSimulator === 'health' ? 'text-pink-400' : 'text-zinc-400'} `} />
                             <h3 className="text-sm font-semibold text-white mb-1">Skin Health</h3>
                             <p className="text-xs text-zinc-500">AI Monitoring</p>
                             <Badge color="pink" size="sm" className="mt-2">Tier 4</Badge>
@@ -211,16 +211,16 @@ export default function InnovationLab() {
 
                                     <div className="space-y-3 mb-6">
                                         <h5 className="text-xs font-semibold text-zinc-400">Try a Command:</h5>
-                                        {voiceSim.demoCommands.map((cmd, idx) => {
+                                        {voiceSim?.demoCommands?.map((cmd, idx) => {
                                             const cmdKey = idx === 0 ? 'stubble' : idx === 1 ? 'formal' : idx === 2 ? 'touchup' : 'blade';
                                             return (
                                                 <button
                                                     key={idx}
                                                     onClick={() => setVoiceCommand(cmdKey)}
-                                                    className={`w-full p-3 rounded-lg border text-left transition-all ${voiceCommand === cmdKey
-                                                        ? 'bg-purple-500/20 border-purple-500'
-                                                        : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                                        }`}
+                                                    className={`w - full p - 3 rounded - lg border text - left transition - all ${voiceCommand === cmdKey
+                                                            ? 'bg-purple-500/20 border-purple-500'
+                                                            : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                                        } `}
                                                 >
                                                     <div className="flex items-center gap-2">
                                                         <Play className="w-3 h-3 text-purple-400" />
@@ -237,7 +237,7 @@ export default function InnovationLab() {
                                             <h5 className="font-semibold text-white">AI Response</h5>
                                         </div>
                                         <p className="text-sm text-zinc-300">
-                                            {voiceSim.responses[voiceCommand as keyof typeof voiceSim.responses]}
+                                            {voiceSim?.responses && voiceSim.responses[voiceCommand as keyof typeof voiceSim.responses]}
                                         </p>
                                     </div>
                                 </div>
@@ -307,16 +307,16 @@ export default function InnovationLab() {
 
                                     <div className="space-y-3 mb-6">
                                         <h5 className="text-xs font-semibold text-zinc-400">AR Scenarios:</h5>
-                                        {arSim.features.map((feature, idx) => {
+                                        {arSim?.features?.map((feature, idx) => {
                                             const scenarioKey = idx === 0 ? 'guidance' : idx === 1 ? 'missed' : idx === 2 ? 'preview' : 'timeline';
                                             return (
                                                 <button
                                                     key={idx}
                                                     onClick={() => setArScenario(scenarioKey)}
-                                                    className={`w-full p-3 rounded-lg border text-left transition-all ${arScenario === scenarioKey
-                                                        ? 'bg-orange-500/20 border-orange-500'
-                                                        : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                                        }`}
+                                                    className={`w - full p - 3 rounded - lg border text - left transition - all ${arScenario === scenarioKey
+                                                            ? 'bg-orange-500/20 border-orange-500'
+                                                            : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                                        } `}
                                                 >
                                                     <span className="text-sm text-white">{feature}</span>
                                                 </button>
@@ -330,7 +330,7 @@ export default function InnovationLab() {
                                             <h5 className="font-semibold text-white">AR Display</h5>
                                         </div>
                                         <p className="text-sm text-zinc-300">
-                                            {arSim.scenarios[arScenario as keyof typeof arSim.scenarios]}
+                                            {arSim?.scenarios && arSim.scenarios[arScenario as keyof typeof arSim.scenarios]}
                                         </p>
                                     </div>
                                 </div>
@@ -394,16 +394,16 @@ export default function InnovationLab() {
 
                                     <div className="space-y-3 mb-6">
                                         <h5 className="text-xs font-semibold text-zinc-400">Monitoring Capabilities:</h5>
-                                        {healthSim.capabilities.map((capability, idx) => {
+                                        {healthSim?.capabilities?.map((capability, idx) => {
                                             const insightKey = idx === 0 ? 'irregularity' : idx === 1 ? 'quality' : idx === 2 ? 'risk' : 'health';
                                             return (
                                                 <button
                                                     key={idx}
                                                     onClick={() => setHealthInsight(insightKey)}
-                                                    className={`w-full p-3 rounded-lg border text-left transition-all ${healthInsight === insightKey
-                                                        ? 'bg-pink-500/20 border-pink-500'
-                                                        : 'bg-white/5 border-white/10 hover:bg-white/10'
-                                                        }`}
+                                                    className={`w - full p - 3 rounded - lg border text - left transition - all ${healthInsight === insightKey
+                                                            ? 'bg-pink-500/20 border-pink-500'
+                                                            : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                                        } `}
                                                 >
                                                     <span className="text-sm text-white">{capability}</span>
                                                 </button>
@@ -417,7 +417,7 @@ export default function InnovationLab() {
                                             <h5 className="font-semibold text-white">Health Insight</h5>
                                         </div>
                                         <p className="text-sm text-zinc-300">
-                                            {healthSim.insights[healthInsight as keyof typeof healthSim.insights]}
+                                            {healthSim?.insights && healthSim.insights[healthInsight as keyof typeof healthSim.insights]}
                                         </p>
                                     </div>
                                 </div>

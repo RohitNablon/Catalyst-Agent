@@ -1,4 +1,4 @@
-import { ArrowLeft, Download, Share2, TrendingUp, TrendingDown, AlertTriangle, CheckCircle2, Target, Zap, Shield, Sparkles } from 'lucide-react';
+import { ArrowLeft, Download, Share2, AlertTriangle, CheckCircle2, Target, Zap, Shield, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 

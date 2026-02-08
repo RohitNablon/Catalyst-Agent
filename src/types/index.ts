@@ -66,7 +66,7 @@ export type Agent = {
     status: 'active' | 'idle' | 'processing' | 'error';
     connectedSources: string[];
     tasksCompleted: number;
-    currentTask?: string;
+    currentTask?: string | null;
 }
 
 export type RoadmapItem = {

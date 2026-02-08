@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Calendar, Clock, AlertTriangle, TrendingUp, Activity, Brain, Radar, Shield, ChevronDown, ChevronUp, Target, BarChart3, Check, Download, Share2, Gauge, ArrowUp, Users, Star, Package } from 'lucide-react';
+import { Calendar, Clock, AlertTriangle, TrendingUp, Activity, Brain, Radar, Shield, ChevronDown, ChevronUp, Target, BarChart3, Check, Download, Share2, ArrowUp, Users, Star, Package } from 'lucide-react';
 import enhancedFeatures from '../data/enhancedRoadmapFeatures.json';
 import { GlassPanel } from '@lego/components/primitives/GlassPanel';
 import { Badge } from '@lego/components/primitives/Badge';
