@@ -1,0 +1,258 @@
+[
+    {
+        "id": "tier1_001",
+        "tier": 1,
+        "tierName": "Sensor Intelligence",
+        "readiness": "Ready for Development",
+        "title": "Auto-Adjust Blade Depth",
+        "capability": "Pressure sensors detect skin sensitivity and automatically adjust blade depth for optimal comfort and closeness",
+        "philipsAssets": [
+            "Sonicare pressure sensor tech (reusable)",
+            "Central ML models for skin analysis"
+        ],
+        "marketValidation": {
+            "score": 8.7,
+            "signalCount": 1890,
+            "keyInsight": "1,890 mentions of 'irritation/sensitive skin'"
+        },
+        "competitiveGap": "None have this feature",
+        "technicalFeasibility": 7.5,
+        "developmentTime": "8-10 months",
+        "investment": "$600K",
+        "edgeCloudSplit": {
+            "edge": "Real-time pressure adjustment (SLM)",
+            "cloud": "Learning from usage patterns across users"
+        }
+    },
+    {
+        "id": "tier1_002",
+        "tier": 1,
+        "tierName": "Sensor Intelligence",
+        "readiness": "Ready for Development",
+        "title": "Skin Tone Detection",
+        "capability": "Optical sensors adapt blade speed and technique based on skin tone and hair contrast",
+        "philipsAssets": [
+            "Philips Lumea IPL technology base",
+            "Skin tone sensing algorithms"
+        ],
+        "marketValidation": {
+            "score": 7.9,
+            "signalCount": 1245,
+            "keyInsight": "Growing demand for inclusive grooming tech"
+        },
+        "competitiveGap": "First-to-market opportunity",
+        "technicalFeasibility": 8.2,
+        "developmentTime": "6-8 months",
+        "investment": "$420K",
+        "edgeCloudSplit": {
+            "edge": "Real-time skin tone analysis (on-device)",
+            "cloud": "Improvement recommendations and personalization"
+        }
+    },
+    {
+        "id": "tier1_003",
+        "tier": 1,
+        "tierName": "Sensor Intelligence",
+        "readiness": "Ready for Development",
+        "title": "Usage Pattern Learning",
+        "capability": "Device learns your grooming habits and proactively suggests optimal settings",
+        "philipsAssets": [
+            "Sonicare brushing analytics platform",
+            "ML pattern recognition models"
+        ],
+        "marketValidation": {
+            "score": 7.6,
+            "signalCount": 892,
+            "keyInsight": "Users want personalized grooming experiences"
+        },
+        "competitiveGap": "Basic versions exist, but not fully personalized",
+        "technicalFeasibility": 8.8,
+        "developmentTime": "5-7 months",
+        "investment": "$280K",
+        "edgeCloudSplit": {
+            "edge": "Local pattern caching for quick access",
+            "cloud": "Deep learning and cross-user insights"
+        }
+    },
+    {
+        "id": "tier2_001",
+        "tier": 2,
+        "tierName": "Contextual Intelligence",
+        "readiness": "6-9 months",
+        "title": "Companion App with Grooming AI",
+        "capability": "Mobile app learns your routines, provides personalized recommendations, and integrates with calendar for grooming reminders",
+        "features": [
+            "'Quick trim' vs 'Full shave' presets",
+            "Skin health tracking over time",
+            "Maintenance predictions",
+            "Integration with calendar (auto-remind)"
+        ],
+        "philipsAssets": [
+            "HealthSuite platform (existing infra)",
+            "Philips One app framework"
+        ],
+        "marketValidation": {
+            "score": 7.9,
+            "signalCount": 2340,
+            "keyInsight": "'Smart grooming' searches +230% YoY, 45% of users want connected experience"
+        },
+        "competitiveGap": "Fragmented solutions exist, no comprehensive platform",
+        "technicalFeasibility": 7.2,
+        "developmentTime": "8-10 months",
+        "investment": "$520K",
+        "edgeCloudSplit": {
+            "edge": "Real-time device control and feedback",
+            "cloud": "Historical analytics, recommendations, cloud sync"
+        }
+    },
+    {
+        "id": "tier2_002",
+        "tier": 2,
+        "tierName": "Contextual Intelligence",
+        "readiness": "6-9 months",
+        "title": "Maintenance Prediction",
+        "capability": "AI predicts blade wear and optimal replacement timing based on usage patterns",
+        "features": [
+            "Blade efficiency tracking",
+            "Proactive replacement reminders",
+            "Integration with subscription service"
+        ],
+        "philipsAssets": [
+            "Usage analytics from existing products",
+            "Predictive maintenance algorithms"
+        ],
+        "marketValidation": {
+            "score": 8.3,
+            "signalCount": 1678,
+            "keyInsight": "Users frequently miss optimal blade replacement timing"
+        },
+        "competitiveGap": "Basic reminders exist, but not intelligent prediction",
+        "technicalFeasibility": 8.5,
+        "developmentTime": "4-6 months",
+        "investment": "$320K",
+        "edgeCloudSplit": {
+            "edge": "Usage tracking and basic calculations",
+            "cloud": "AI-powered prediction models"
+        }
+    },
+    {
+        "id": "tier3_001",
+        "tier": 3,
+        "tierName": "Advanced AI",
+        "readiness": "12-18 months",
+        "title": "Voice-Controlled Grooming",
+        "capability": "On-device SLM (Small Language Model) enables voice commands like 'Give me a 3-day stubble look'",
+        "features": [
+            "Natural language understanding",
+            "Hands-free operation",
+            "Custom style presets by voice"
+        ],
+        "philipsAssets": [
+            "Edge AI research initiatives",
+            "Voice UI frameworks from other divisions"
+        ],
+        "marketValidation": {
+            "score": 6.8,
+            "signalCount": 567,
+            "keyInsight": "Emerging trend, early adopter interest"
+        },
+        "competitiveGap": "Completely new category",
+        "technicalFeasibility": 5.5,
+        "developmentTime": "12-15 months",
+        "investment": "$890K",
+        "edgeCloudSplit": {
+            "edge": "On-device SLM for privacy and responsiveness",
+            "cloud": "Model updates and expanded vocabulary"
+        }
+    },
+    {
+        "id": "tier3_002",
+        "tier": 3,
+        "tierName": "Advanced AI",
+        "readiness": "12-18 months",
+        "title": "AR Mirror Integration",
+        "capability": "Augmented reality overlay showing optimal angles, missed spots, and style preview",
+        "features": [
+            "Real-time guidance overlay",
+            "Missed spot detection",
+            "Style preview before grooming"
+        ],
+        "philipsAssets": [
+            "Computer vision research",
+            "AR development framework"
+        ],
+        "marketValidation": {
+            "score": 7.1,
+            "signalCount": 892,
+            "keyInsight": "Tech-forward users excited about AR applications"
+        },
+        "competitiveGap": "Concept stage in industry",
+        "technicalFeasibility": 4.8,
+        "developmentTime": "15-18 months",
+        "investment": "$1.2M",
+        "edgeCloudSplit": {
+            "edge": "Real-time AR rendering",
+            "cloud": "Style database and recommendations"
+        }
+    },
+    {
+        "id": "tier4_001",
+        "tier": 4,
+        "tierName": "Moonshot Innovations",
+        "readiness": "18+ months",
+        "title": "Computer Vision Skin Analysis",
+        "capability": "Real-time skin condition analysis, shave quality feedback, and early warning for dermatological issues",
+        "features": [
+            "Skin irregularity detection",
+            "Shave quality scoring",
+            "Dermatological health monitoring"
+        ],
+        "philipsAssets": [
+            "Healthcare imaging expertise",
+            "Medical device compliance knowledge"
+        ],
+        "marketValidation": {
+            "score": 6.2,
+            "signalCount": 234,
+            "keyInsight": "Intersection of grooming and health monitoring"
+        },
+        "competitiveGap": "Blue ocean opportunity",
+        "technicalFeasibility": 3.5,
+        "developmentTime": "18-24 months",
+        "investment": "$2.1M",
+        "edgeCloudSplit": {
+            "edge": "Basic image capture and analysis",
+            "cloud": "Advanced AI diagnostics and medical consultation"
+        }
+    },
+    {
+        "id": "tier4_002",
+        "tier": 4,
+        "tierName": "Moonshot Innovations",
+        "readiness": "18+ months",
+        "title": "Predictive Modeling",
+        "capability": "AI predicts grooming needs: 'Based on your patterns, you'll need a touchup in 14 hours before evening event'",
+        "features": [
+            "Hair growth prediction",
+            "Calendar integration for event prep",
+            "Proactive grooming suggestions"
+        ],
+        "philipsAssets": [
+            "Predictive analytics platforms",
+            "User behavior modeling expertise"
+        ],
+        "marketValidation": {
+            "score": 5.9,
+            "signalCount": 178,
+            "keyInsight": "Futuristic concept with niche early interest"
+        },
+        "competitiveGap": "No comparable solutions",
+        "technicalFeasibility": 4.2,
+        "developmentTime": "18-22 months",
+        "investment": "$1.5M",
+        "edgeCloudSplit": {
+            "edge": "Local data storage and quick predictions",
+            "cloud": "Deep learning models and pattern analysis"
+        }
+    }
+]

@@ -1,0 +1,514 @@
+[
+    {
+        "id": "feat_timeline_01",
+        "name": "Waterproof Travel Lock",
+        "description": "Accidental activation during transit causes battery drain. Implement toggle lock similar to Braun Series models.",
+        "tier": 1,
+        "priority": "P0",
+        "status": "validated",
+        "signalStrength": 9.2,
+        "businessImpact": 8.5,
+        "estimatedCost": "$12K",
+        "timeline": "2 weeks",
+        "mentions": 892,
+        "horizon": "immediate",
+        "launchDaysAway": 14,
+        "agentRecommender": {
+            "agentId": "scout",
+            "agentName": "Competitive Scout Agent",
+            "timestamp": "2 hours ago",
+            "confidence": 9.1,
+            "reasoning": "Based on 892 customer signals across 3 platforms, validated against competitive analysis. Braun Series 9 has this feature, causing 234 potential churns."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 523,
+                "percentage": 58
+            },
+            "reddit": {
+                "mentions": 245,
+                "percentage": 27
+            },
+            "youtube": {
+                "mentions": 124,
+                "percentage": 15
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "My OneBlade turned on in my suitcase and the battery was completely dead when I got to my hotel. Super frustrating!",
+                "platform": "Amazon",
+                "rating": 3,
+                "helpfulVotes": 847
+            },
+            {
+                "text": "Love the shave but wish it had a travel lock like my old Braun. It's 2024, this should be standard.",
+                "platform": "Reddit",
+                "rating": 4,
+                "helpfulVotes": 234
+            },
+            {
+                "text": "Activated in gym bag twice this month. Had to charge it before I could use it. Annoying design flaw.",
+                "platform": "YouTube",
+                "rating": 3,
+                "helpfulVotes": 156
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": true,
+            "manscaped": true,
+            "impactStatement": "Closing this gap impacts 234 potential churns"
+        },
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 5000,
+                "percentage": 42
+            },
+            "testing": {
+                "amount": 3000,
+                "percentage": 25
+            },
+            "tooling": {
+                "amount": 2000,
+                "percentage": 17
+            },
+            "marketing": {
+                "amount": 2000,
+                "percentage": 16
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$47K",
+            "paybackMonths": 4.2,
+            "timeToImpact": "6 months"
+        }
+    },
+    {
+        "id": "feat_timeline_02",
+        "name": "OneBlade PRO Head (Sensitive Skin)",
+        "description": "Hypoallergenic blade head with reduced irritation for sensitive skin types. 30% less pressure, dermatologist-tested.",
+        "tier": 1,
+        "priority": "P0",
+        "status": "validated",
+        "signalStrength": 8.7,
+        "businessImpact": 9.2,
+        "estimatedCost": "$23K",
+        "timeline": "3 weeks",
+        "mentions": 1247,
+        "horizon": "immediate",
+        "launchDaysAway": 21,
+        "agentRecommender": {
+            "agentId": "voc",
+            "agentName": "Voice of Customer Agent",
+            "timestamp": "4 hours ago",
+            "confidence": 8.7,
+            "reasoning": "1,247 customer mentions flagging skin irritation. Validated by dermatology research and Philips HealthSuite skin sensors."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 687,
+                "percentage": 55
+            },
+            "reddit": {
+                "mentions": 412,
+                "percentage": 33
+            },
+            "youtube": {
+                "mentions": 148,
+                "percentage": 12
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "Great device but I get razor burn on my neck. Wish there was a sensitive skin option like Gillette has.",
+                "platform": "Amazon",
+                "rating": 4,
+                "helpfulVotes": 1204
+            },
+            {
+                "text": "Works well but too aggressive for daily use. I can only shave every 2-3 days to avoid irritation.",
+                "platform": "Reddit",
+                "rating": 3,
+                "helpfulVotes": 567
+            },
+            {
+                "text": "My dermatologist said I should stop using it because of the redness. Disappointing because I like the results.",
+                "platform": "Amazon",
+                "rating": 2,
+                "helpfulVotes": 892
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": true,
+            "manscaped": false,
+            "impactStatement": "Expanding addressable market by 32% (sensitive skin segment)"
+        },
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 10000,
+                "percentage": 43
+            },
+            "testing": {
+                "amount": 6000,
+                "percentage": 26
+            },
+            "tooling": {
+                "amount": 4000,
+                "percentage": 17
+            },
+            "marketing": {
+                "amount": 3000,
+                "percentage": 13
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$89K",
+            "paybackMonths": 3.1,
+            "timeToImpact": "5 months"
+        }
+    },
+    {
+        "id": "feat_timeline_03",
+        "name": "Blade Life Indicator (LEDs)",
+        "description": "Visual indicator showing remaining blade life (Green/Yellow/Red LEDs). Reduces customer uncertainty and improves replacement timing.",
+        "tier": 2,
+        "priority": "P1",
+        "status": "validated",
+        "signalStrength": 7.8,
+        "businessImpact": 7.2,
+        "estimatedCost": "$45K",
+        "timeline": "8-10 weeks",
+        "mentions": 634,
+        "horizon": "quarterly",
+        "launchDaysAway": 70,
+        "agentRecommender": {
+            "agentId": "architect",
+            "agentName": "Feature Prioritization Agent",
+            "timestamp": "6 hours ago",
+            "confidence": 7.8,
+            "reasoning": "634 mentions about blade replacement uncertainty. Can leverage Philips Sonicare LED indicator technology."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 389,
+                "percentage": 61
+            },
+            "reddit": {
+                "mentions": 178,
+                "percentage": 28
+            },
+            "youtube": {
+                "mentions": 67,
+                "percentage": 11
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "I never know when to replace the blade. Sometimes I wait too long, sometimes I replace it too early. Wasteful.",
+                "platform": "Amazon",
+                "rating": 4,
+                "helpfulVotes": 456
+            },
+            {
+                "text": "My Sonicare toothbrush has this feature. Why doesn't OneBlade? It would save me money on unnecessary replacements.",
+                "platform": "Reddit",
+                "rating": 4,
+                "helpfulVotes": 234
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": true,
+            "manscaped": false,
+            "impactStatement": "Increases blade subscription retention by 18%"
+        },
+        "philipsAssets": [
+            "Sonicare LED indicator tech",
+            "Battery monitoring algorithms"
+        ],
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 18000,
+                "percentage": 40
+            },
+            "testing": {
+                "amount": 11000,
+                "percentage": 24
+            },
+            "tooling": {
+                "amount": 10000,
+                "percentage": 22
+            },
+            "marketing": {
+                "amount": 6000,
+                "percentage": 13
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$124K",
+            "paybackMonths": 4.3,
+            "timeToImpact": "9 months"
+        }
+    },
+    {
+        "id": "feat_timeline_04",
+        "name": "HealthSuite Shave Analytics",
+        "description": "Connect to Philips HealthSuite for skin health tracking, shave pattern analysis, and personalized grooming tips via app.",
+        "tier": 2,
+        "priority": "P1",
+        "status": "validated",
+        "signalStrength": 6.9,
+        "businessImpact": 8.8,
+        "estimatedCost": "$180K",
+        "timeline": "16 weeks",
+        "mentions": 423,
+        "horizon": "quarterly",
+        "launchDaysAway": 112,
+        "agentRecommender": {
+            "agentId": "architect",
+            "agentName": "Feature Prioritization Agent",
+            "timestamp": "1 day ago",
+            "confidence": 8.2,
+            "reasoning": "Strategic alignment with Philips HealthTech division. 423 mentions about smart features. Leverages existing HealthSuite infrastructure."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 198,
+                "percentage": 47
+            },
+            "reddit": {
+                "mentions": 156,
+                "percentage": 37
+            },
+            "youtube": {
+                "mentions": 69,
+                "percentage": 16
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "I love my Philips Sonicare app. Would be cool to have something similar for my OneBlade to track my skincare routine.",
+                "platform": "Reddit",
+                "rating": 5,
+                "helpfulVotes": 312
+            },
+            {
+                "text": "Smart features are the future. Track how often I shave, give me tips, remind me when to replace the blade.",
+                "platform": "YouTube",
+                "rating": null,
+                "helpfulVotes": 189
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": false,
+            "manscaped": true,
+            "impactStatement": "First in category to integrate with medical-grade health platform"
+        },
+        "philipsAssets": [
+            "HealthSuite platform",
+            "Sonicare app framework",
+            "Philips Design language"
+        ],
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 72000,
+                "percentage": 40
+            },
+            "testing": {
+                "amount": 43000,
+                "percentage": 24
+            },
+            "tooling": {
+                "amount": 36000,
+                "percentage": 20
+            },
+            "marketing": {
+                "amount": 29000,
+                "percentage": 16
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$612K",
+            "paybackMonths": 3.5,
+            "timeToImpact": "12 months"
+        }
+    },
+    {
+        "id": "feat_timeline_05",
+        "name": "SenseIQ 2.0 Pressure Detection",
+        "description": "Real-time pressure sensors with haptic feedback to prevent over-pressing and skin damage. Leverages Philips sensor tech.",
+        "tier": 3,
+        "priority": "P2",
+        "status": "exploring",
+        "signalStrength": 5.4,
+        "businessImpact": 9.5,
+        "estimatedCost": "$340K",
+        "timeline": "Q2 2025",
+        "mentions": 287,
+        "horizon": "innovation",
+        "launchDaysAway": 365,
+        "agentRecommender": {
+            "agentId": "radar",
+            "agentName": "Trend Radar Agent",
+            "timestamp": "2 days ago",
+            "confidence": 6.8,
+            "reasoning": "Emerging trend in premium segment. Philips has existing sensor IP from Sonicare line. Category leadership opportunity."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 112,
+                "percentage": 39
+            },
+            "reddit": {
+                "mentions": 98,
+                "percentage": 34
+            },
+            "youtube": {
+                "mentions": 77,
+                "percentage": 27
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "My Sonicare toothbrush vibrates when I press too hard. This would be perfect for shaving to avoid irritation!",
+                "platform": "Reddit",
+                "rating": null,
+                "helpfulVotes": 245
+            },
+            {
+                "text": "I always press too hard and end up with red skin. Smart sensors would be a game changer.",
+                "platform": "Amazon",
+                "rating": 4,
+                "helpfulVotes": 178
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": false,
+            "manscaped": false,
+            "impactStatement": "Category-first innovation, potential for patents and market leadership"
+        },
+        "philipsAssets": [
+            "Sonicare pressure sensors",
+            "Haptic feedback motors",
+            "AI pressure algorithms"
+        ],
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 136000,
+                "percentage": 40
+            },
+            "testing": {
+                "amount": 82000,
+                "percentage": 24
+            },
+            "tooling": {
+                "amount": 68000,
+                "percentage": 20
+            },
+            "marketing": {
+                "amount": 54000,
+                "percentage": 16
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$1.2M",
+            "paybackMonths": 3.4,
+            "timeToImpact": "18 months"
+        },
+        "patentOpportunities": [
+            "Adaptive pressure sensing for grooming devices",
+            "Haptic skin protection feedback system"
+        ]
+    },
+    {
+        "id": "feat_timeline_06",
+        "name": "UV-C Blade Sanitization Dock",
+        "description": "Charging dock with UV-C light sanitization. Kills 99.9% of bacteria between uses. Philips healthcare heritage positioning.",
+        "tier": 3,
+        "priority": "P2",
+        "status": "exploring",
+        "signalStrength": 4.8,
+        "businessImpact": 8.2,
+        "estimatedCost": "$280K",
+        "timeline": "Q3 2025",
+        "mentions": 198,
+        "horizon": "innovation",
+        "launchDaysAway": 455,
+        "agentRecommender": {
+            "agentId": "radar",
+            "agentName": "Trend Radar Agent",
+            "timestamp": "3 days ago",
+            "confidence": 7.2,
+            "reasoning": "Post-pandemic hygiene awareness remains high. Philips has UV-C expertise from air purifier division."
+        },
+        "dataSources": {
+            "amazon": {
+                "mentions": 89,
+                "percentage": 45
+            },
+            "reddit": {
+                "mentions": 67,
+                "percentage": 34
+            },
+            "youtube": {
+                "mentions": 42,
+                "percentage": 21
+            }
+        },
+        "customerQuotes": [
+            {
+                "text": "I sanitize everything now. A UV dock for my shaver would be awesome, especially for gym/travel use.",
+                "platform": "Reddit",
+                "rating": null,
+                "helpfulVotes": 167
+            },
+            {
+                "text": "Philips makes great air purifiers with UV. Why not add this to OneBlade? Would be a premium feature.",
+                "platform": "Amazon",
+                "rating": 5,
+                "helpfulVotes": 123
+            }
+        ],
+        "competitiveContext": {
+            "oneblade": false,
+            "braun": false,
+            "manscaped": false,
+            "impactStatement": "Premium tier differentiation, targets health-conscious segment"
+        },
+        "philipsAssets": [
+            "UV-C technology from air purifiers",
+            "Charging dock engineering",
+            "Healthcare brand equity"
+        ],
+        "investmentBreakdown": {
+            "rd": {
+                "amount": 112000,
+                "percentage": 40
+            },
+            "testing": {
+                "amount": 67000,
+                "percentage": 24
+            },
+            "tooling": {
+                "amount": 56000,
+                "percentage": 20
+            },
+            "marketing": {
+                "amount": 45000,
+                "percentage": 16
+            }
+        },
+        "roiProjection": {
+            "estimatedReturn": "$890K",
+            "paybackMonths": 3.8,
+            "timeToImpact": "20 months"
+        },
+        "patentOpportunities": [
+            "Compact UV-C sanitization for grooming devices"
+        ]
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "id": "q2_001",
+        "quarter": "Q2",
+        "year": 2026,
+        "title": "Enhanced Waterproofing (IP68 certification)",
+        "description": "Full waterproof design allowing wet shaves and underwater cleaning",
+        "validationSignals": 1240,
+        "validationScore": 8.9,
+        "timeline": {
+            "start": "April 2026",
+            "end": "June 2026",
+            "duration": "3 months"
+        },
+        "progress": 25,
+        "status": "In Development",
+        "details": {
+            "marketDemand": "1,240 wet-shave requests across platforms",
+            "competitiveGap": "Braun Series 9 and Panasonic Arc5 both IP67+",
+            "investment": "$380K",
+            "roi": "↑ Market share +6%",
+            "risks": "Component sourcing for waterproof seals"
+        }
+    },
+    {
+        "id": "q2_002",
+        "quarter": "Q2",
+        "year": 2026,
+        "title": "Blade Subscription Service (Pilot)",
+        "description": "Dollar-Shave-Club model for automatic blade replacement delivery",
+        "validationSignals": 567,
+        "validationScore": 8.1,
+        "timeline": {
+            "start": "May 2026",
+            "end": "June 2026",
+            "duration": "2 months"
+        },
+        "progress": 40,
+        "status": "Planning",
+        "details": {
+            "marketDemand": "567 requests for subscription model",
+            "competitiveGap": "Dollar Shave Club validation: 8.1/10 score",
+            "investment": "$120K (pilot)",
+            "roi": "↑ Customer LTV +35%",
+            "risks": "Logistics and fulfillment infrastructure"
+        }
+    },
+    {
+        "id": "q2_003",
+        "quarter": "Q2",
+        "year": 2026,
+        "title": "Mobile app v2.0 with usage tracking",
+        "description": "Companion app with grooming pattern analytics and smart recommendations",
+        "validationSignals": 892,
+        "validationScore": 7.6,
+        "timeline": {
+            "start": "April 2026",
+            "end": "June 2026",
+            "duration": "3 months"
+        },
+        "progress": 60,
+        "status": "In Development",
+        "details": {
+            "marketDemand": "Connected device trend, 892 app feature requests",
+            "competitiveGap": "Connects to Edge AI strategy for future features",
+            "investment": "$220K",
+            "roi": "↑ Engagement +40%, ↑ Retention +18%",
+            "risks": "Privacy concerns around data collection"
+        }
+    },
+    {
+        "id": "q3_001",
+        "quarter": "Q3",
+        "year": 2026,
+        "title": "Smart charging dock with UV sterilization",
+        "description": "Wireless charging dock with built-in UV-C sanitization",
+        "validationSignals": 1123,
+        "validationScore": 9.1,
+        "timeline": {
+            "start": "July 2026",
+            "end": "September 2026",
+            "duration": "3 months"
+        },
+        "progress": 0,
+        "status": "Planned",
+        "details": {
+            "marketDemand": "Hygiene trend: +340% mentions year-over-year",
+            "competitiveGap": "Premium segment differentiator, unique feature",
+            "investment": "$540K",
+            "roi": "↑ Premium tier sales +25%",
+            "risks": "UV-C safety certifications required"
+        }
+    },
+    {
+        "id": "q3_002",
+        "quarter": "Q3",
+        "year": 2026,
+        "title": "Premium travel case with wireless charging",
+        "description": "Luxury travel case with integrated wireless charging and storage",
+        "validationSignals": 678,
+        "validationScore": 7.8,
+        "timeline": {
+            "start": "August 2026",
+            "end": "September 2026",
+            "duration": "2 months"
+        },
+        "progress": 0,
+        "status": "Planned",
+        "details": {
+            "marketDemand": "Business traveler segment opportunity, 678 requests",
+            "competitiveGap": "Premium positioning against competitors",
+            "investment": "$180K",
+            "roi": "↑ Business segment +15%",
+            "risks": "Wireless charging compatibility across regions"
+        }
+    }
+]

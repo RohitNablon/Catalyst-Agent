@@ -1,0 +1,117 @@
+[
+    {
+        "id": "sig_001",
+        "platform": "amazon",
+        "content": "Love the OneBlade but blade gets clogged with hair after a few uses. Wish there was an easy-clean feature like Braun has.",
+        "sentiment": "negative",
+        "sentimentScore": -0.4,
+        "category": "product_friction",
+        "timestamp": "2024-02-05T14:23:00Z",
+        "volume": 234,
+        "priority": "p0",
+        "relatedFeature": "feat_002"
+    },
+    {
+        "id": "sig_002",
+        "platform": "reddit",
+        "content": "Using OneBlade before cold plunge sessions - perfect for quick grooming. Would pay extra for waterproof model.",
+        "sentiment": "positive",
+        "sentimentScore": 0.7,
+        "category": "new_usecase",
+        "timestamp": "2024-02-04T09:15:00Z",
+        "volume": 67,
+        "priority": "p1",
+        "relatedFeature": "feat_005"
+    },
+    {
+        "id": "sig_003",
+        "platform": "tiktok",
+        "content": "#OneBlade #grooming - Sustainable blade replacements would be amazing. Hate throwing away plastic every month.",
+        "sentiment": "neutral",
+        "category": "sustainability",
+        "timestamp": "2024-02-03T18:45:00Z",
+        "volume": 412,
+        "priority": "p1"
+    },
+    {
+        "id": "sig_004",
+        "platform": "youtube",
+        "content": "Review: OneBlade 360 is great but I travel a lot and it accidentally turns on in my bag. Need a travel lock feature!",
+        "sentiment": "negative",
+        "sentimentScore": -0.3,
+        "category": "travel",
+        "timestamp": "2024-02-02T11:30:00Z",
+        "volume": 189,
+        "priority": "p0",
+        "relatedFeature": "feat_004"
+    },
+    {
+        "id": "sig_005",
+        "platform": "amazon",
+        "content": "This shaver is smart! It adjusts to my skin automatically. More products should do this.",
+        "sentiment": "positive",
+        "sentimentScore": 0.8,
+        "category": "ai_features",
+        "timestamp": "2024-02-01T16:20:00Z",
+        "volume": 543,
+        "priority": "p2",
+        "relatedFeature": "feat_001"
+    },
+    {
+        "id": "sig_006",
+        "platform": "instagram",
+        "content": "OneBlade for sensitive skin is a game changer. Keep improving this tech! #PhilipsOneBlade",
+        "sentiment": "positive",
+        "sentimentScore": 0.9,
+        "category": "sensitive_skin",
+        "timestamp": "2024-01-31T12:10:00Z",
+        "volume": 298,
+        "priority": "p2"
+    },
+    {
+        "id": "sig_007",
+        "platform": "reddit",
+        "content": "Compared to Manscaped, OneBlade is quieter but wish it had LED spotlight like their newer models.",
+        "sentiment": "neutral",
+        "sentimentScore": 0.1,
+        "category": "competitive_feature",
+        "timestamp": "2024-01-30T08:45:00Z",
+        "volume": 156,
+        "priority": "p1",
+        "relatedFeature": "feat_006"
+    },
+    {
+        "id": "sig_008",
+        "platform": "amazon",
+        "content": "Battery life is excellent! 3 weeks on single charge. Philips nailed this.",
+        "sentiment": "positive",
+        "sentimentScore": 0.85,
+        "category": "battery",
+        "timestamp": "2024-01-29T19:55:00Z",
+        "volume": 621,
+        "priority": "p3"
+    },
+    {
+        "id": "sig_009",
+        "platform": "youtube",
+        "content": "OneBlade needs app connectivity. Track blade life, get personalized grooming tips. Future of grooming!",
+        "sentiment": "neutral",
+        "sentimentScore": 0.3,
+        "category": "smart_features",
+        "timestamp": "2024-01-28T10:15:00Z",
+        "volume": 178,
+        "priority": "p2",
+        "relatedFeature": "feat_007"
+    },
+    {
+        "id": "sig_010",
+        "platform": "tiktok",
+        "content": "Dual-blade system is AMAZING. So much faster than single blade shavers. #OneBlade",
+        "sentiment": "positive",
+        "sentimentScore": 0.95,
+        "category": "blade_tech",
+        "timestamp": "2024-01-27T14:30:00Z",
+        "volume": 827,
+        "priority": "p3"
+    }
+]

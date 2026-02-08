@@ -1,0 +1,71 @@
+[
+    {
+        "id": "comp_001",
+        "name": "Braun Series 9 Pro",
+        "marketPosition": {
+            "x": 8.5,
+            "y": 8.2,
+            "size": 45
+        },
+        "features": {
+            "adaptiveBlade": true,
+            "easyClean": true,
+            "travelLock": true,
+            "ledSpotlight": false,
+            "appConnectivity": "planned",
+            "dualBlade": false,
+            "waterproof": true
+        },
+        "pricing": 299,
+        "recentActivity": [
+            "Price drop detected: -15% (15 min ago)",
+            "New adaptive shaving feature announced (2 weeks ago)",
+            "Positive reviews increased 23% (1 month ago)"
+        ]
+    },
+    {
+        "id": "comp_002",
+        "name": "Manscaped 4.0",
+        "marketPosition": {
+            "x": 7.2,
+            "y": 6.8,
+            "size": 32
+        },
+        "features": {
+            "adaptiveBlade": false,
+            "easyClean": true,
+            "travelLock": true,
+            "ledSpotlight": true,
+            "appConnectivity": false,
+            "dualBlade": false,
+            "waterproof": true
+        },
+        "pricing": 89,
+        "recentActivity": [
+            "LED spotlight feature launched (3 days ago)",
+            "Marketing campaign targeting wellness influencers (1 week ago)"
+        ]
+    },
+    {
+        "id": "comp_003",
+        "name": "Gillette SkinGuard",
+        "marketPosition": {
+            "x": 6.1,
+            "y": 7.5,
+            "size": 38
+        },
+        "features": {
+            "adaptiveBlade": false,
+            "easyClean": false,
+            "travelLock": false,
+            "ledSpotlight": false,
+            "appConnectivity": false,
+            "dualBlade": false,
+            "waterproof": false
+        },
+        "pricing": 45,
+        "recentActivity": [
+            "Sensitive skin variant launched (2 months ago)"
+        ]
+    }
+]

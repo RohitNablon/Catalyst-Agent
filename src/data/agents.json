@@ -1,0 +1,70 @@
+[
+    {
+        "id": "agent_001",
+        "name": "Voice of Customer Agent",
+        "description": "Monitors customer feedback across Amazon, Reddit, YouTube, TikTok, Instagram",
+        "status": "active",
+        "connectedSources": [
+            "Amazon Product API",
+            "Reddit r/wicked_edge",
+            "YouTube Grooming Reviews",
+            "TikTok #grooming",
+            "Instagram #PhilipsOneBlade"
+        ],
+        "tasksCompleted": 1247,
+        "currentTask": "Analyzing 67 new Amazon reviews from last 4 hours..."
+    },
+    {
+        "id": "agent_002",
+        "name": "Trend Radar Agent",
+        "description": "Detects emerging grooming trends and wellness patterns",
+        "status": "processing",
+        "connectedSources": [
+            "Google Trends API",
+            "Reddit Trending",
+            "TikTok Viral Content",
+            "Pinterest Trends"
+        ],
+        "tasksCompleted": 892,
+        "currentTask": "Tracking 'cold plunge grooming' trend (412% momentum increase)"
+    },
+    {
+        "id": "agent_003",
+        "name": "Competitive Scout Agent",
+        "description": "Tracks competitor activities, launches, and market positioning",
+        "status": "active",
+        "connectedSources": [
+            "Competitive Price Monitor",
+            "Product Launch Tracker",
+            "Review Aggregator"
+        ],
+        "tasksCompleted": 634,
+        "currentTask": "Detected Braun Series 9 Pro price drop (-15%). Analyzing impact..."
+    },
+    {
+        "id": "agent_004",
+        "name": "Feature Prioritization Agent",
+        "description": "Synthesizes insights into prioritized roadmap items",
+        "status": "idle",
+        "connectedSources": [
+            "Feature Database",
+            "Philips Asset Library",
+            "Cost Estimator"
+        ],
+        "tasksCompleted": 428,
+        "currentTask": null
+    },
+    {
+        "id": "agent_005",
+        "name": "Feature Validation Agent",
+        "description": "Assesses market readiness and business case for features",
+        "status": "processing",
+        "connectedSources": [
+            "Market Sizing API",
+            "ROI Calculator",
+            "Competitive Analysis"
+        ],
+        "tasksCompleted": 312,
+        "currentTask": "Validating 'SenseIQ 2.0' business case (signal strength: 9.2/10)"
+    }
+]

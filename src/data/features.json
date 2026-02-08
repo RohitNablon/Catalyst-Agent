@@ -1,0 +1,129 @@
+[
+    {
+        "id": "feat_001",
+        "name": "Adaptive Blade Calibration (SenseIQ 2.0)",
+        "description": "AI-powered blade pressure adjustment based on real-time skin sensitivity detection",
+        "tier": 1,
+        "signalStrength": 9.2,
+        "philipsAssets": [
+            {
+                "asset": "Sonicare Pressure Sensor Technology",
+                "source": "Sonicare DiamondClean",
+                "reusability": "direct"
+            },
+            {
+                "asset": "Skin Analysis Algorithm 4.1",
+                "source": "Lumea IPL",
+                "reusability": "adaptation"
+            }
+        ],
+        "edgeCloudSplit": {
+            "edge": [
+                "Real-time pressure detection",
+                "Immediate blade adjustment",
+                "Safety cutoff logic"
+            ],
+            "cloud": [
+                "Usage pattern learning",
+                "Personalization model updates",
+                "Aggregate insights"
+            ]
+        },
+        "estimatedCost": "$85K (R&D amortized via Sonicare reuse)",
+        "estimatedROI": "$2.3M (projected first-year revenue)",
+        "validationEvidence": [
+            "543 Amazon reviews mentioning 'smart' or 'automatic'",
+            "Sonicare pressure sensor has 94% satisfaction in oral care",
+            "Competitor Braun announced similar feature (validation of market need)"
+        ],
+        "status": "validated"
+    },
+    {
+        "id": "feat_002",
+        "name": "One-Touch Blade Cleaning",
+        "description": "Automated cleaning cycle with ultrasonic vibration technology",
+        "tier": 1,
+        "signalStrength": 8.7,
+        "philipsAssets": [
+            {
+                "asset": "Ultrasonic Cleaning Module",
+                "source": "Sonicare",
+                "reusability": "adaptation"
+            }
+        ],
+        "edgeCloudSplit": {
+            "edge": [
+                "Cleaning cycle execution",
+                "Debris detection"
+            ],
+            "cloud": [
+                "Usage pattern optimization"
+            ]
+        },
+        "estimatedCost": "$45K",
+        "estimatedROI": "$1.8M",
+        "validationEvidence": [
+            "234 complaints about blade clogging on Amazon",
+            "Braun 'Easy-Clean' feature: 67% positive sentiment"
+        ],
+        "status": "validated"
+    },
+    {
+        "id": "feat_004",
+        "name": "Smart Travel Lock",
+        "description": "Automatic lock when motion sensor detects travel, unlock via app or button sequence",
+        "tier": 2,
+        "signalStrength": 7.5,
+        "estimatedCost": "$15K",
+        "validationEvidence": [
+            "189 YouTube mentions of accidental activation",
+            "Competitor parity - Braun has this feature"
+        ],
+        "status": "validated"
+    },
+    {
+        "id": "feat_005",
+        "name": "Waterproof Pro Edition",
+        "description": "IP68-rated full waterproofing for shower and cold plunge use",
+        "tier": 2,
+        "signalStrength": 6.8,
+        "estimatedCost": "$120K",
+        "validationEvidence": [
+            "67 Reddit posts from wellness/cold plunge community",
+            "Growing trend: wellness routines (412% increase YoY)"
+        ],
+        "status": "in-development"
+    },
+    {
+        "id": "feat_006",
+        "name": "LED Precision Spotlight",
+        "description": "Integrated LED for precision grooming in low light",
+        "tier": 3,
+        "signalStrength": 5.9,
+        "estimatedCost": "$8K",
+        "validationEvidence": [
+            "Manscaped launched LED feature 3 days ago",
+            "156 Reddit comparisons"
+        ],
+        "status": "ideation"
+    },
+    {
+        "id": "feat_007",
+        "name": "OneBlade Connect App",
+        "description": "Mobile app for blade life tracking, grooming tips, and personalized routines",
+        "tier": 3,
+        "signalStrength": 6.2,
+        "philipsAssets": [
+            {
+                "asset": "Philips HealthSuite Platform",
+                "source": "Connected Health Division",
+                "reusability": "direct"
+            }
+        ],
+        "estimatedCost": "$200K",
+        "validationEvidence": [
+            "178 YouTube requests for smart features"
+        ],
+        "status": "ideation"
+    }
+]

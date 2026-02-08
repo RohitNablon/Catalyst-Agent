@@ -1,0 +1,120 @@
+[
+    {
+        "id": "sim_voice_control",
+        "name": "Voice-Controlled Grooming Assistant",
+        "description": "Natural language commands for hands-free operation",
+        "tier": 3,
+        "type": "voice",
+        "demoCommands": [
+            "Give me a 3-day stubble look",
+            "Set up for formal event tonight",
+            "Quick touchup around goatee",
+            "How's my blade condition?"
+        ],
+        "responses": {
+            "stubble": "Adjusting to 0.4mm length. Activating gentle mode for stubble maintenance.",
+            "formal": "Setting precision mode at 0.2mm. Activating dual-blade for maximum closeness.",
+            "touchup": "Precision zone activated. Reducing speed by 30% for detail work.",
+            "blade": "Current blade life: 73%. Estimated 12 more shaves before replacement recommended."
+        },
+        "philipsAssets": [
+            "Voice UI framework from Philips Hue",
+            "Edge AI research from Healthcare division"
+        ],
+        "technicalSpec": {
+            "edgeProcessing": "On-device SLM for privacy and zero-latency response",
+            "cloudProcessing": "Model updates and expanded command vocabulary",
+            "languages": 12,
+            "accuracy": "94% intent recognition"
+        },
+        "marketValidation": {
+            "score": 6.8,
+            "signals": 567,
+            "insight": "Emerging demand from smart home integration trend"
+        },
+        "businessImpact": {
+            "cost": "$890K",
+            "timeline": "12-15 months",
+            "roi": "↑ Tech-forward segment +12%"
+        }
+    },
+    {
+        "id": "sim_ar_mirror",
+        "name": "AR Mirror Integration",
+        "description": "Augmented reality guidance for perfect grooming",
+        "tier": 3,
+        "type": "ar",
+        "features": [
+            "Real-time angle guidance overlay",
+            "Missed spot detection",
+            "Style preview before grooming",
+            "Historical comparison timeline"
+        ],
+        "scenarios": {
+            "guidance": "Showing optimal shaving angles for neck contour",
+            "missed": "3 areas need attention - highlighting in red",
+            "preview": "Preview: Hollywood stubble (0.5mm) vs Clean shave",
+            "timeline": "Your grooming consistency: 87% (up 12% this month)"
+        },
+        "philipsAssets": [
+            "Computer vision research",
+            "AR development framework from Philips Lighting"
+        ],
+        "technicalSpec": {
+            "edgeProcessing": "Real-time AR rendering at 60fps",
+            "cloudProcessing": "Style database with 50+ looks and recommendations",
+            "hardware": "Compatible with smartphone AR kits",
+            "accuracy": "98% facial feature detection"
+        },
+        "marketValidation": {
+            "score": 7.1,
+            "signals": 892,
+            "insight": "Tech-forward users excited about AR applications in grooming"
+        },
+        "businessImpact": {
+            "cost": "$1.2M",
+            "timeline": "15-18 months",
+            "roi": "↑ Premium tech segment +18%"
+        }
+    },
+    {
+        "id": "sim_skin_health",
+        "name": "Skin Health Monitor",
+        "description": "AI-powered skin condition analysis during grooming",
+        "tier": 4,
+        "type": "health",
+        "capabilities": [
+            "Real-time skin irregularity detection",
+            "Shave quality scoring",
+            "Irritation risk prediction",
+            "Dermatological health monitoring"
+        ],
+        "insights": {
+            "irregularity": "Detected minor irritation zone on left jawline - reducing pressure automatically",
+            "quality": "Shave quality score: 8.7/10. Missed 2 small areas - guiding now.",
+            "risk": "High risk of irritation detected. Switching to sensitive mode.",
+            "health": "Weekly skin health: Improving. Redness down 15% vs. last week."
+        },
+        "philipsAssets": [
+            "Healthcare imaging expertise",
+            "Medical device compliance knowledge",
+            "Philips Skin Analysis algorithms"
+        ],
+        "technicalSpec": {
+            "edgeProcessing": "Basic image capture and preliminary analysis",
+            "cloudProcessing": "Advanced AI diagnostics and trend analysis",
+            "sensors": "Multi-spectral skin sensors (similar to Philips medical devices)",
+            "accuracy": "Medical-grade precision (FDA clearance path identified)"
+        },
+        "marketValidation": {
+            "score": 6.2,
+            "signals": 234,
+            "insight": "Intersection of grooming and health monitoring - niche but growing"
+        },
+        "businessImpact": {
+            "cost": "$2.1M",
+            "timeline": "18-24 months",
+            "roi": "↑ Health-conscious segment +22%, potential medical partnerships"
+        }
+    }
+]
