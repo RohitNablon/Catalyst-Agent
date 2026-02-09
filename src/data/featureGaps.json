@@ -1,0 +1,136 @@
+{
+    "theyHaveWeFont": [
+        {
+            "id": "gap_001",
+            "feature": "LED Spotlight",
+            "competitor": "Manscaped",
+            "demandSignals": 312,
+            "sentiment": "positive",
+            "complexity": "Low",
+            "userQuote": "The LED light on Manscaped is game-changing for precision trimming",
+            "potentialImpact": "↑ Premium segment appeal +8%",
+            "estimatedCost": "$45K",
+            "timeline": "Q2 2026",
+            "roadmapStatus": "Proposed for Q2",
+            "priority": "P1"
+        },
+        {
+            "id": "gap_002",
+            "feature": "Travel Lock",
+            "competitor": "Braun",
+            "demandSignals": 234,
+            "sentiment": "positive",
+            "complexity": "Low",
+            "userQuote": "Braun's travel lock saved me from TSA battery panic",
+            "potentialImpact": "↑ Business traveler satisfaction +12%",
+            "estimatedCost": "$15K",
+            "timeline": "Q1 2026",
+            "roadmapStatus": "Already in our Q1 roadmap",
+            "priority": "P0"
+        },
+        {
+            "id": "gap_003",
+            "feature": "Replaceable Battery",
+            "competitor": "Wahl",
+            "demandSignals": 189,
+            "sentiment": "mixed",
+            "complexity": "Medium",
+            "userQuote": "Love that I can swap Wahl batteries instead of buying new device",
+            "potentialImpact": "↑ Sustainability score, ↓ Repeat purchases risk",
+            "estimatedCost": "$120K",
+            "timeline": "Q4 2026",
+            "roadmapStatus": "Under evaluation",
+            "priority": "P2"
+        },
+        {
+            "id": "gap_004",
+            "feature": "Quick Charge (5-min boost)",
+            "competitor": "Panasonic",
+            "demandSignals": 267,
+            "sentiment": "positive",
+            "complexity": "Medium",
+            "userQuote": "Panasonic's 5-minute quick charge is a lifesaver for mornings",
+            "potentialImpact": "↑ Convenience score +15%",
+            "estimatedCost": "$85K",
+            "timeline": "Q3 2026",
+            "roadmapStatus": "Not planned",
+            "priority": "P1"
+        },
+        {
+            "id": "gap_005",
+            "feature": "Precision Zoom Wheel",
+            "competitor": "Wahl",
+            "demandSignals": 145,
+            "sentiment": "positive",
+            "complexity": "Low",
+            "userQuote": "The zoom wheel gives me perfect length control",
+            "potentialImpact": "↑ Precision grooming segment +6%",
+            "estimatedCost": "$35K",
+            "timeline": "Q2 2026",
+            "roadmapStatus": "Proposed",
+            "priority": "P2"
+        }
+    ],
+    "weHaveTheyDont": [
+        {
+            "id": "adv_001",
+            "feature": "Dual-Sided Blade",
+            "uniqueTo": "OneBlade 360",
+            "marketAwareness": "12%",
+            "userPreference": "67%",
+            "amplificationOpportunity": "UNDERMARKETED",
+            "suggestedAction": "Launch awareness campaign highlighting dual-blade efficiency",
+            "projectedImpact": "↑ Market differentiation +25%",
+            "userQuote": "The dual blade cuts my grooming time in half - why isn't everyone talking about this?",
+            "competitorStatus": "None have this"
+        },
+        {
+            "id": "adv_002",
+            "feature": "One-Click Length Adjustment",
+            "uniqueTo": "OneBlade 360",
+            "marketAwareness": "34%",
+            "userPreference": "89%",
+            "amplificationOpportunity": "STRONG DIFFERENTIATOR",
+            "suggestedAction": "Feature in all marketing materials as key USP",
+            "projectedImpact": "↑ Ease-of-use perception +18%",
+            "userQuote": "No fiddling with combs - one click and I'm set",
+            "competitorStatus": "Braun has 3-step, Manscaped has 4-step"
+        },
+        {
+            "id": "adv_003",
+            "feature": "Skin-Safe Technology",
+            "uniqueTo": "OneBlade (patented)",
+            "marketAwareness": "56%",
+            "userPreference": "92%",
+            "amplificationOpportunity": "STRONG AWARENESS",
+            "suggestedAction": "Maintain messaging, expand to sensitive skin campaigns",
+            "projectedImpact": "↑ Safety perception leadership",
+            "userQuote": "No nicks, no irritation - finally a shaver I trust",
+            "competitorStatus": "Gillette has SkinGuard (different tech)"
+        },
+        {
+            "id": "adv_004",
+            "feature": "Contour-Following Flex Head",
+            "uniqueTo": "OneBlade 360",
+            "marketAwareness": "28%",
+            "userPreference": "78%",
+            "amplificationOpportunity": "UNDERMARKETED",
+            "suggestedAction": "Video demos showing neck/jaw line precision",
+            "projectedImpact": "↑ Precision positioning +14%",
+            "userQuote": "Gets every contour perfectly - especially around the jawline",
+            "competitorStatus": "Braun has fixed head, Manscaped has limited flex"
+        },
+        {
+            "id": "adv_005",
+            "feature": "HyperLift & Cut Technology",
+            "uniqueTo": "OneBlade (patented)",
+            "marketAwareness": "41%",
+            "userPreference": "85%",
+            "amplificationOpportunity": "MODERATE AWARENESS",
+            "suggestedAction": "Educational content on lift-and-cut mechanism",
+            "projectedImpact": "↑ Close-shave preference +20%",
+            "userQuote": "Closest shave without the razor burn - the lift tech is brilliant",
+            "competitorStatus": "None have comparable patented tech"
+        }
+    ]
+}

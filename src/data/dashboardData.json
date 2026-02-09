@@ -1,0 +1,722 @@
+{
+    "executiveSummary": {
+        "priorities": [
+            {
+                "id": "priority_1",
+                "icon": "🚀",
+                "type": "CAPITALIZE",
+                "title": "Cleaning feature viral momentum (2.3M views)",
+                "action": "push in ads"
+            },
+            {
+                "id": "priority_2",
+                "icon": "⚠️",
+                "type": "DEFEND",
+                "title": "Braun price war hurting value perception",
+                "action": "bundle offer needed"
+            },
+            {
+                "id": "priority_3",
+                "icon": "🔧",
+                "type": "FIX",
+                "title": "Battery complaints up 34%",
+                "action": "firmware team investigating"
+            },
+            {
+                "id": "priority_4",
+                "icon": "📈",
+                "type": "ACCELERATE",
+                "title": "LED Spotlight to match Braun by April",
+                "action": "approve budget?"
+            }
+        ]
+    },
+    "kpis": {
+        "marketSentiment": {
+            "value": 9.2,
+            "change": 1.0,
+            "changeLabel": "vs 8 weeks ago",
+            "trend": "up",
+            "sparklineData": [
+                8.2,
+                8.4,
+                8.7,
+                8.5,
+                8.9,
+                9.1,
+                9.2
+            ],
+            "breakdown": {
+                "amazon": {
+                    "score": 9.4,
+                    "reviews": 2847,
+                    "label": "Top channel"
+                },
+                "walmart": {
+                    "score": 8.9,
+                    "reviews": 1203
+                },
+                "target": {
+                    "score": 9.1,
+                    "reviews": 892
+                },
+                "bestBuy": {
+                    "score": 8.7,
+                    "reviews": 654,
+                    "alert": "Needs attention"
+                }
+            },
+            "trendingAlert": {
+                "icon": "⚡",
+                "text": "TRENDING: #EasyClean mentioned 847 times today (3x normal)"
+            },
+            "conversationStarter": "Should we amplify cleaning feature in Q1 campaign?"
+        },
+        "innovationReadiness": {
+            "value": 87,
+            "change": 5,
+            "changeLabel": "vs last quarter",
+            "trend": "up",
+            "context": "SenseIQ 2.0 patents filed, One-Touch Cleaning tech ready",
+            "launchReady": "Launch Ready in 6 weeks",
+            "pipeline": {
+                "ready": [
+                    {
+                        "name": "SenseIQ 2.0 Adaptive Blade",
+                        "status": "Patents filed ✓",
+                        "readiness": 100
+                    },
+                    {
+                        "name": "One-Touch Cleaning",
+                        "status": "Prototype validated ✓",
+                        "readiness": 100
+                    }
+                ],
+                "inDevelopment": [
+                    {
+                        "name": "Dual Blade Technology",
+                        "status": "Competitor parity feature",
+                        "readiness": 60
+                    },
+                    {
+                        "name": "LED Spotlight",
+                        "status": "Manscaped has it, we're 8 weeks out",
+                        "readiness": 60
+                    }
+                ],
+                "concept": [
+                    {
+                        "name": "App Connectivity",
+                        "status": "Braun launched this Q4",
+                        "readiness": 20
+                    },
+                    {
+                        "name": "Wireless Charging Dock",
+                        "status": "Under evaluation",
+                        "readiness": 20
+                    }
+                ]
+            },
+            "competitiveUrgency": {
+                "pressurePoints": [
+                    "Braun launched LED Spotlight (Jan 15) - we're behind",
+                    "Manscaped 5.0 rumored for Q2 with waterproofing upgrade",
+                    "Our SenseIQ 2.0 gives us 6-month lead IF we launch by March"
+                ]
+            },
+            "rdVelocity": "Team closed 12 feature specs this month (vs 9 last month)",
+            "conversationStarter": "Fast-track LED Spotlight to match Braun by April?"
+        },
+        "competitiveGap": {
+            "value": 3,
+            "change": -2,
+            "changeLabel": "vs last quarter",
+            "trend": "down",
+            "context": "Closed gap on Travel Lock and Waterproofing",
+            "gapTrend": "Was 5 features behind (Dec 2025)",
+            "featureGap": {
+                "missing": [
+                    {
+                        "name": "Dual Blade Technology",
+                        "competitor": "Braun Series 9 Pro",
+                        "impact": "HIGH IMPACT",
+                        "demand": "456 'wish it had dual blades' mentions"
+                    },
+                    {
+                        "name": "LED Spotlight",
+                        "competitor": "Manscaped 4.0, Braun",
+                        "impact": "MEDIUM IMPACT",
+                        "demand": "'Can't see what I'm doing' - 234 complaints"
+                    },
+                    {
+                        "name": "Wireless Charging",
+                        "competitor": "Braun Series 9 Pro",
+                        "impact": "LOW IMPACT",
+                        "demand": "Nice-to-have, 87 mentions only"
+                    }
+                ],
+                "advantages": [
+                    {
+                        "name": "One-Touch Cleaning",
+                        "status": "UNIQUE (patent protected)",
+                        "advantage": "Beats all competitors"
+                    },
+                    {
+                        "name": "Smart Travel Lock",
+                        "status": "Beats all competitors",
+                        "advantage": "Leading feature"
+                    },
+                    {
+                        "name": "SenseIQ Adaptive Blade",
+                        "status": "Nobody has this yet",
+                        "advantage": "Innovation lead"
+                    }
+                ]
+            },
+            "revenueImpact": {
+                "lost": "$2.8M in Q4 2025 (12% of premium shoppers to Braun)",
+                "potential": "$4.1M in 2026 if Dual Blade gap closed"
+            },
+            "competitiveAlert": "Braun filed 'Ultra Blade' patent last week"
+        },
+        "customerSatisfaction": {
+            "value": 8.4,
+            "change": 0.3,
+            "changeLabel": "vs last month",
+            "trend": "up",
+            "rating": "4.2/5",
+            "platforms": "Amazon, Walmart, Target average",
+            "nps": 67,
+            "satisfactionDrivers": {
+                "topSatisfiers": [
+                    {
+                        "driver": "One-Touch Cleaning",
+                        "mentions": 3847,
+                        "impact": "67% cite as reason for repeat purchase"
+                    },
+                    {
+                        "driver": "Gentle on Sensitive Skin",
+                        "mentions": 2103,
+                        "impact": "89% repurchase intent in this segment"
+                    },
+                    {
+                        "driver": "Travel Convenience",
+                        "mentions": 1456,
+                        "impact": "34% are frequent business travelers"
+                    }
+                ],
+                "topDetractors": [
+                    {
+                        "driver": "Battery Life",
+                        "mentions": 487,
+                        "trend": "rising",
+                        "impact": "18% of 1-star reviews cite this"
+                    },
+                    {
+                        "driver": "Price vs Braun",
+                        "mentions": 356,
+                        "trend": "rising",
+                        "impact": "23% cart abandonment"
+                    },
+                    {
+                        "driver": "Blade Replacement Cost",
+                        "mentions": 234,
+                        "trend": "stable",
+                        "impact": "Subscription model interest: 45%"
+                    }
+                ]
+            },
+            "channelPerformance": [
+                {
+                    "channel": "Amazon",
+                    "rating": 4.7,
+                    "satisfaction": 9.1,
+                    "reviews": 2847
+                },
+                {
+                    "channel": "Walmart",
+                    "rating": 4.5,
+                    "satisfaction": 8.6,
+                    "reviews": 1203
+                },
+                {
+                    "channel": "Target",
+                    "rating": 4.6,
+                    "satisfaction": 8.9,
+                    "reviews": 892
+                }
+            ],
+            "cohortAnalysis": "First-time buyers: 8.1/10 | Repeat customers: 9.2/10 (+13% loyalty bonus)",
+            "detractorTrend": "Battery Life complaints rising (+34% MoM)",
+            "conversationStarter": "Should we introduce a battery health optimization mode?"
+        }
+    },
+    "sentimentTrend": [
+        {
+            "date": "Jan 1",
+            "fullDate": "2026-01-01",
+            "sentiment": 8.2,
+            "positive": 78,
+            "negative": 15,
+            "neutral": 7,
+            "event": null
+        },
+        {
+            "date": "Jan 8",
+            "fullDate": "2026-01-08",
+            "sentiment": 8.4,
+            "positive": 79,
+            "negative": 14,
+            "neutral": 7,
+            "event": {
+                "icon": "📱",
+                "title": "CES Launch",
+                "impact": "+0.2 sentiment",
+                "description": "OneBlade 360 announced at CES 2026"
+            }
+        },
+        {
+            "date": "Jan 15",
+            "fullDate": "2026-01-15",
+            "sentiment": 8.7,
+            "positive": 80,
+            "negative": 13,
+            "neutral": 7,
+            "event": {
+                "icon": "⭐",
+                "title": "Tech Influencer Reviews",
+                "impact": "+0.3 sentiment",
+                "description": "Positive reviews from major tech YouTubers"
+            }
+        },
+        {
+            "date": "Jan 22",
+            "fullDate": "2026-01-22",
+            "sentiment": 8.5,
+            "positive": 78,
+            "negative": 15,
+            "neutral": 7,
+            "event": {
+                "icon": "⚠️",
+                "title": "Braun price cut detected",
+                "impact": "-0.2 sentiment",
+                "description": "Braun Series 9 Pro aggressive promotion started"
+            }
+        },
+        {
+            "date": "Jan 29",
+            "fullDate": "2026-01-29",
+            "sentiment": 8.9,
+            "positive": 81,
+            "negative": 12,
+            "neutral": 7,
+            "event": {
+                "icon": "🚀",
+                "title": "Travel edition launch",
+                "impact": "+0.4 sentiment",
+                "description": "OneBlade Travel Edition with Smart Lock"
+            }
+        },
+        {
+            "date": "Feb 5",
+            "fullDate": "2026-02-05",
+            "sentiment": 9.1,
+            "positive": 82,
+            "negative": 11,
+            "neutral": 7,
+            "event": {
+                "icon": "💡",
+                "title": "Viral cleaning demo",
+                "impact": "+0.2 sentiment",
+                "description": "2.3M TikTok views on One-Touch Cleaning feature"
+            }
+        },
+        {
+            "date": "Feb 8",
+            "fullDate": "2026-02-08",
+            "sentiment": 9.2,
+            "positive": 82,
+            "negative": 11,
+            "neutral": 7,
+            "event": null
+        }
+    ],
+    "sentimentDrivers": {
+        "positive": [
+            {
+                "text": "Easy to clean",
+                "mentions": 1847,
+                "change": 23,
+                "trend": "up"
+            },
+            {
+                "text": "Perfect travel shaver",
+                "mentions": 1203,
+                "change": 45,
+                "trend": "up",
+                "note": "travel lock feature"
+            },
+            {
+                "text": "Great for sensitive skin",
+                "mentions": 891,
+                "change": 12,
+                "trend": "up"
+            }
+        ],
+        "negative": [
+            {
+                "text": "Blade dulls quickly",
+                "mentions": 234,
+                "change": -18,
+                "trend": "down",
+                "note": "improved blade quality working"
+            },
+            {
+                "text": "Battery life could be better",
+                "mentions": 187,
+                "change": 5,
+                "trend": "up"
+            },
+            {
+                "text": "Price too high vs Braun",
+                "mentions": 156,
+                "change": 34,
+                "trend": "up",
+                "note": "Braun promo impact"
+            }
+        ],
+        "breakdown": {
+            "positive": {
+                "current": 82,
+                "previous": 78,
+                "change": 4
+            },
+            "negative": {
+                "current": 11,
+                "previous": 15,
+                "change": -4
+            },
+            "neutral": {
+                "current": 7,
+                "previous": 7,
+                "change": 0
+            }
+        },
+        "executiveInsight": {
+            "momentum": "Strong positive trajectory driven by viral content and product improvements.",
+            "watch": "Price sensitivity increasing due to competitor promotions.",
+            "action": "Maintain quality messaging, consider Q1 bundle offers to counter Braun."
+        },
+        "dataSource": "Analyzed from 12,847 reviews (Amazon, Best Buy, Target) + 8,234 social mentions"
+    },
+    "sentimentHeatmap": [
+        {
+            "feature": "Cleaning",
+            "data": [
+                {
+                    "date": "Jan 1",
+                    "score": 8.1,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 8",
+                    "score": 8.3,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 15",
+                    "score": 8.6,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 22",
+                    "score": 8.7,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 29",
+                    "score": 8.9,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 5",
+                    "score": 9.2,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 8",
+                    "score": 9.3,
+                    "status": "strong"
+                }
+            ]
+        },
+        {
+            "feature": "Travel Lock",
+            "data": [
+                {
+                    "date": "Jan 1",
+                    "score": 7.2,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 8",
+                    "score": 7.4,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 15",
+                    "score": 8.1,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 22",
+                    "score": 8.3,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 29",
+                    "score": 8.9,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 5",
+                    "score": 9.1,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 8",
+                    "score": 9.2,
+                    "status": "strong"
+                }
+            ]
+        },
+        {
+            "feature": "Blade Quality",
+            "data": [
+                {
+                    "date": "Jan 1",
+                    "score": 7.8,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 8",
+                    "score": 8.0,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 15",
+                    "score": 8.2,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 22",
+                    "score": 8.4,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 29",
+                    "score": 8.5,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 5",
+                    "score": 8.6,
+                    "status": "strong"
+                },
+                {
+                    "date": "Feb 8",
+                    "score": 8.7,
+                    "status": "strong"
+                }
+            ]
+        },
+        {
+            "feature": "Price/Value",
+            "data": [
+                {
+                    "date": "Jan 1",
+                    "score": 8.5,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 8",
+                    "score": 8.4,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 15",
+                    "score": 8.3,
+                    "status": "strong"
+                },
+                {
+                    "date": "Jan 22",
+                    "score": 7.9,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 29",
+                    "score": 7.7,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Feb 5",
+                    "score": 7.6,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Feb 8",
+                    "score": 7.5,
+                    "status": "moderate",
+                    "alert": true
+                }
+            ]
+        },
+        {
+            "feature": "Battery Life",
+            "data": [
+                {
+                    "date": "Jan 1",
+                    "score": 7.6,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 8",
+                    "score": 7.5,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 15",
+                    "score": 7.5,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 22",
+                    "score": 7.4,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Jan 29",
+                    "score": 7.4,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Feb 5",
+                    "score": 7.3,
+                    "status": "moderate"
+                },
+                {
+                    "date": "Feb 8",
+                    "score": 7.3,
+                    "status": "moderate"
+                }
+            ]
+        }
+    ],
+    "agentActivity": [
+        {
+            "id": "activity_001",
+            "agentId": "agent_scout",
+            "agentName": "Competitive Scout",
+            "timestamp": "2026-02-08T10:19:00+05:30",
+            "relativeTime": "18 min ago",
+            "action": "Detected Braun Series 9 Pro price drop to $254 (-15%) on Amazon",
+            "impact": "medium",
+            "status": "warning"
+        },
+        {
+            "id": "activity_002",
+            "agentId": "agent_architect",
+            "agentName": "Feature Prioritization",
+            "timestamp": "2026-02-08T09:42:00+05:30",
+            "relativeTime": "55 min ago",
+            "action": "Identified blade cleaning friction point from 234 customer mentions",
+            "impact": "high",
+            "status": "success"
+        },
+        {
+            "id": "activity_003",
+            "agentId": "agent_radar",
+            "agentName": "Trend Radar",
+            "timestamp": "2026-02-08T08:25:00+05:30",
+            "relativeTime": "2 hours ago",
+            "action": "Cold plunge grooming trend momentum +412% on TikTok (12M views)",
+            "impact": "medium",
+            "status": "info"
+        },
+        {
+            "id": "activity_004",
+            "agentId": "agent_validator",
+            "agentName": "Feature Validation",
+            "timestamp": "2026-02-08T07:10:00+05:30",
+            "relativeTime": "3 hours ago",
+            "action": "Validated SenseIQ 2.0 feature with 8.7/10 signal strength (1,890 mentions)",
+            "impact": "high",
+            "status": "success"
+        },
+        {
+            "id": "activity_005",
+            "agentId": "agent_shadow",
+            "agentName": "Voice of Customer",
+            "timestamp": "2026-02-08T04:30:00+05:30",
+            "relativeTime": "6 hours ago",
+            "action": "Monitored Manscaped LED spotlight launch - 312 positive competitor mentions",
+            "impact": "low",
+            "status": "info"
+        }
+    ],
+    "priorityAlerts": [
+        {
+            "id": "alert_001",
+            "priority": "critical",
+            "icon": "🔴",
+            "title": "Blade cleaning friction increasing",
+            "description": "234 mentions last 30 days (+45% MoM). Customers struggling with hair clogs after thick beard trims.",
+            "metrics": {
+                "mentions": 234,
+                "sentiment": "74% negative",
+                "growth": "+45% MoM"
+            },
+            "recommendation": "Implement One-Touch Cleaning mechanism in Q2 roadmap",
+            "actions": [
+                "View Details",
+                "Assign Team",
+                "Add to Sprint"
+            ]
+        },
+        {
+            "id": "alert_002",
+            "priority": "watch",
+            "icon": "🟡",
+            "title": "Competitor feature gap closing",
+            "description": "Manscaped 4.0 added LED spotlight. Braun Series 9 Pro has adaptive pressure sensing similar to our SenseIQ roadmap.",
+            "metrics": {
+                "competitorsMentions": 312,
+                "featureGap": "2 features",
+                "timeframe": "Last 2 weeks"
+            },
+            "recommendation": "Accelerate SenseIQ 2.0 development timeline from 10mo to 8mo",
+            "actions": [
+                "Review Roadmap",
+                "Competitive Analysis"
+            ]
+        },
+        {
+            "id": "alert_003",
+            "priority": "opportunity",
+            "icon": "🟢",
+            "title": "Sustainable grooming trend accelerating",
+            "description": "2,410 social mentions with 89% positive sentiment. Gen Z segment showing strong interest in eco-friendly blade programs.",
+            "metrics": {
+                "mentions": 2410,
+                "sentiment": "89% positive",
+                "growth": "+340% QoQ"
+            },
+            "recommendation": "Launch eco-blade recycling pilot program in Q3",
+            "actions": [
+                "Business Case",
+                "Partner Search",
+                "Pilot Design"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+[
+    {
+        "id": "opp_001",
+        "priority": "P0",
+        "opportunity": "Fix Blade Cleaning UX",
+        "signalStrength": 9.2,
+        "signalCount": 892,
+        "estimatedImpact": "↑ NPS +12 pts",
+        "effort": "3 days",
+        "status": "Ready",
+        "dataSources": {
+            "amazon": {
+                "mentions": 523,
+                "sentiment": "negative",
+                "percentage": 45
+            },
+            "reddit": {
+                "mentions": 127,
+                "sentiment": "negative",
+                "percentage": 38
+            },
+            "youtube": {
+                "mentions": 89,
+                "sentiment": "neutral",
+                "percentage": 25
+            },
+            "twitter": {
+                "mentions": 153,
+                "sentiment": "negative",
+                "percentage": 42
+            }
+        },
+        "quotes": [
+            {
+                "text": "Love the shave but cleaning under the blade is a nightmare",
+                "source": "Amazon",
+                "rating": 4,
+                "engagement": "67 helpful votes"
+            },
+            {
+                "text": "Hair gets stuck and hard to rinse out completely",
+                "source": "Reddit r/grooming",
+                "rating": null,
+                "engagement": "47 upvotes"
+            },
+            {
+                "text": "Wish it had a snap-off head like my old trimmer",
+                "source": "YouTube",
+                "rating": null,
+                "engagement": "23 likes"
+            }
+        ],
+        "recommendedActions": [
+            {
+                "type": "Quick Fix",
+                "action": "Create 'How to Clean' video tutorial",
+                "timeline": "2 days",
+                "cost": "$5K"
+            },
+            {
+                "type": "Medium",
+                "action": "Update manual with detailed cleaning guide",
+                "timeline": "3 days",
+                "cost": "$3K"
+            },
+            {
+                "type": "Long-term",
+                "action": "Design detachable blade head (R&D required)",
+                "timeline": "Q3 2026",
+                "cost": "$450K"
+            }
+        ],
+        "competitiveContext": {
+            "competitor": "Braun Series 3",
+            "hasFeature": true,
+            "sentiment": "67% positive mentions",
+            "ourGap": "This feature absent, creating friction"
+        },
+        "businessImpact": {
+            "returnReduction": "8-12%",
+            "npsImprovement": "+12 points",
+            "quickFixCost": "$5K",
+            "fullRedesignCost": "$450K"
+        }
+    },
+    {
+        "id": "opp_002",
+        "priority": "P1",
+        "opportunity": "Add Travel Lock (Firmware)",
+        "signalStrength": 7.8,
+        "signalCount": 234,
+        "estimatedImpact": "↓ Returns -8%",
+        "effort": "1 week",
+        "status": "In Review",
+        "dataSources": {
+            "amazon": {
+                "mentions": 89,
+                "sentiment": "neutral",
+                "percentage": 30
+            },
+            "youtube": {
+                "mentions": 67,
+                "sentiment": "negative",
+                "percentage": 40
+            },
+            "reddit": {
+                "mentions": 45,
+                "sentiment": "neutral",
+                "percentage": 25
+            },
+            "twitter": {
+                "mentions": 33,
+                "sentiment": "negative",
+                "percentage": 35
+            }
+        },
+        "quotes": [
+            {
+                "text": "OneBlade 360 is great but it accidentally turns on in my bag",
+                "source": "YouTube Review",
+                "rating": 4,
+                "engagement": "156 views"
+            },
+            {
+                "text": "Need a travel lock feature like Braun has",
+                "source": "Amazon",
+                "rating": 3,
+                "engagement": "34 helpful"
+            },
+            {
+                "text": "Wasted battery because it turned on during flight",
+                "source": "Reddit r/travel",
+                "rating": null,
+                "engagement": "28 upvotes"
+            }
+        ],
+        "recommendedActions": [
+            {
+                "type": "Quick Fix",
+                "action": "Firmware update for OneBlade 360 Pro",
+                "timeline": "1 week",
+                "cost": "$15K"
+            },
+            {
+                "type": "Medium",
+                "action": "Add to user manual and marketing materials",
+                "timeline": "2 weeks",
+                "cost": "$8K"
+            }
+        ],
+        "competitiveContext": {
+            "competitor": "Braun Series 3",
+            "hasFeature": true,
+            "sentiment": "Competitive parity feature",
+            "ourGap": "Currently missing, customer expectation"
+        },
+        "businessImpact": {
+            "returnReduction": "8%",
+            "npsImprovement": "+5 points",
+            "quickFixCost": "$15K",
+            "fullRedesignCost": null
+        }
+    },
+    {
+        "id": "opp_003",
+        "priority": "P2",
+        "opportunity": "Battery % Indicator UI",
+        "signalStrength": 6.9,
+        "signalCount": 412,
+        "estimatedImpact": "↑ Satisfaction +5%",
+        "effort": "2 weeks",
+        "status": "Backlog",
+        "dataSources": {
+            "amazon": {
+                "mentions": 198,
+                "sentiment": "neutral",
+                "percentage": 60
+            },
+            "youtube": {
+                "mentions": 112,
+                "sentiment": "positive",
+                "percentage": 45
+            },
+            "reddit": {
+                "mentions": 67,
+                "sentiment": "neutral",
+                "percentage": 50
+            },
+            "twitter": {
+                "mentions": 35,
+                "sentiment": "positive",
+                "percentage": 40
+            }
+        },
+        "quotes": [
+            {
+                "text": "Would be great to see exact battery percentage instead of just lights",
+                "source": "Amazon",
+                "rating": 5,
+                "engagement": "89 helpful"
+            },
+            {
+                "text": "Modern devices should show % battery, not just LED bars",
+                "source": "YouTube",
+                "rating": null,
+                "engagement": "45 likes"
+            }
+        ],
+        "recommendedActions": [
+            {
+                "type": "Medium",
+                "action": "UI update in companion app + device firmware",
+                "timeline": "2 weeks",
+                "cost": "$25K"
+            },
+            {
+                "type": "Long-term",
+                "action": "Small OLED display on device (next gen hardware)",
+                "timeline": "2027",
+                "cost": "$180K"
+            }
+        ],
+        "competitiveContext": {
+            "competitor": "Manscaped 4.0",
+            "hasFeature": true,
+            "sentiment": "Nice-to-have, not critical",
+            "ourGap": "Align with competitor offerings"
+        },
+        "businessImpact": {
+            "returnReduction": "2%",
+            "npsImprovement": "+5 points",
+            "quickFixCost": "$25K",
+            "fullRedesignCost": "$180K"
+        }
+    }
+]

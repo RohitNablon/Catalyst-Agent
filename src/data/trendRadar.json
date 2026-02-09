@@ -1,0 +1,285 @@
+[
+    {
+        "id": "trend_001",
+        "title": "Cold Plunge Grooming Prep",
+        "category": "Wellness & Skincare",
+        "ring": "emerging",
+        "momentum": "high",
+        "growth": "+340%",
+        "signals": {
+            "tiktok": "12M views",
+            "reddit": "2.4K discussions",
+            "google": "+180% searches"
+        },
+        "opportunity": "Pre-shave skin prep partnership/content",
+        "relevance": 8.5,
+        "position": {
+            "angle": 45,
+            "radius": 65
+        },
+        "icon": "🧊",
+        "sentiment": "positive",
+        "peakAge": "18-35",
+        "geographic": [
+            "US",
+            "UK",
+            "Canada"
+        ],
+        "actionable": true,
+        "priority": "P1"
+    },
+    {
+        "id": "trend_002",
+        "title": "Sustainable Blade Recycling",
+        "category": "Sustainability",
+        "ring": "weak_signal",
+        "momentum": "medium",
+        "growth": "+120%",
+        "signals": {
+            "tiktok": "340K views",
+            "reddit": "2.4K mentions",
+            "google": "+45% searches"
+        },
+        "opportunity": "Eco-blade program (pilot launch)",
+        "relevance": 6.2,
+        "position": {
+            "angle": 120,
+            "radius": 85
+        },
+        "icon": "♻️",
+        "sentiment": "positive",
+        "peakAge": "25-40",
+        "geographic": [
+            "Germany",
+            "Netherlands",
+            "Sweden"
+        ],
+        "actionable": true,
+        "priority": "P2"
+    },
+    {
+        "id": "trend_003",
+        "title": "Multi-Function Grooming Tools",
+        "category": "Product Features",
+        "ring": "mainstream",
+        "momentum": "stable",
+        "growth": "+5%",
+        "signals": {
+            "tiktok": "45M views",
+            "reddit": "12K discussions",
+            "google": "Steady"
+        },
+        "opportunity": "OneBlade already addresses this ✓",
+        "relevance": 9.0,
+        "position": {
+            "angle": 180,
+            "radius": 35
+        },
+        "icon": "🔧",
+        "sentiment": "neutral",
+        "peakAge": "All ages",
+        "geographic": [
+            "Global"
+        ],
+        "actionable": false,
+        "priority": "P3"
+    },
+    {
+        "id": "trend_004",
+        "title": "Skincare Integration (Moisturizing)",
+        "category": "Wellness & Skincare",
+        "ring": "emerging",
+        "momentum": "high",
+        "growth": "+280%",
+        "signals": {
+            "tiktok": "23M views",
+            "reddit": "5.6K discussions",
+            "google": "+220% searches"
+        },
+        "opportunity": "Moisturizing blade attachment or serum partnership",
+        "relevance": 8.8,
+        "position": {
+            "angle": 270,
+            "radius": 60
+        },
+        "icon": "💧",
+        "sentiment": "positive",
+        "peakAge": "22-45",
+        "geographic": [
+            "US",
+            "UK",
+            "Australia"
+        ],
+        "actionable": true,
+        "priority": "P0"
+    },
+    {
+        "id": "trend_005",
+        "title": "Quiet Operation (Early Morning)",
+        "category": "User Experience",
+        "ring": "emerging",
+        "momentum": "medium",
+        "growth": "+150%",
+        "signals": {
+            "tiktok": "8.2M views",
+            "reddit": "3.1K discussions",
+            "google": "+95% searches"
+        },
+        "opportunity": "Silent mode feature or marketing angle",
+        "relevance": 7.3,
+        "position": {
+            "angle": 15,
+            "radius": 70
+        },
+        "icon": "🔇",
+        "sentiment": "positive",
+        "peakAge": "30-50",
+        "geographic": [
+            "Japan",
+            "Germany",
+            "UK"
+        ],
+        "actionable": true,
+        "priority": "P1"
+    },
+    {
+        "id": "trend_006",
+        "title": "Premium Aesthetics (Bathroom Decor)",
+        "category": "Design & Aesthetics",
+        "ring": "emerging",
+        "momentum": "high",
+        "growth": "+190%",
+        "signals": {
+            "tiktok": "15M views",
+            "reddit": "1.8K discussions",
+            "google": "+140% searches"
+        },
+        "opportunity": "Limited edition colorways, premium finishes",
+        "relevance": 7.9,
+        "position": {
+            "angle": 330,
+            "radius": 62
+        },
+        "icon": "✨",
+        "sentiment": "positive",
+        "peakAge": "25-40",
+        "geographic": [
+            "US",
+            "France",
+            "Italy"
+        ],
+        "actionable": true,
+        "priority": "P1"
+    },
+    {
+        "id": "trend_007",
+        "title": "Travel-Friendly Design",
+        "category": "Portability",
+        "ring": "mainstream",
+        "momentum": "stable",
+        "growth": "+8%",
+        "signals": {
+            "tiktok": "28M views",
+            "reddit": "8.9K discussions",
+            "google": "Steady"
+        },
+        "opportunity": "Already in Q2 roadmap (Travel case)",
+        "relevance": 8.6,
+        "position": {
+            "angle": 200,
+            "radius": 30
+        },
+        "icon": "✈️",
+        "sentiment": "positive",
+        "peakAge": "25-45",
+        "geographic": [
+            "Global"
+        ],
+        "actionable": false,
+        "priority": "P2"
+    },
+    {
+        "id": "trend_008",
+        "title": "Longevity & Sustainability",
+        "category": "Sustainability",
+        "ring": "mainstream",
+        "momentum": "growing",
+        "growth": "+65%",
+        "signals": {
+            "tiktok": "34M views",
+            "reddit": "14K discussions",
+            "google": "+85% searches"
+        },
+        "opportunity": "Durability messaging, repair program",
+        "relevance": 9.2,
+        "position": {
+            "angle": 150,
+            "radius": 40
+        },
+        "icon": "🌱",
+        "sentiment": "positive",
+        "peakAge": "30-55",
+        "geographic": [
+            "Europe",
+            "US"
+        ],
+        "actionable": true,
+        "priority": "P1"
+    },
+    {
+        "id": "trend_009",
+        "title": "Smart Device Integration",
+        "category": "Technology",
+        "ring": "weak_signal",
+        "momentum": "low",
+        "growth": "+60%",
+        "signals": {
+            "tiktok": "1.2M views",
+            "reddit": "890 mentions",
+            "google": "+30% searches"
+        },
+        "opportunity": "App connectivity exploration (long-term)",
+        "relevance": 5.4,
+        "position": {
+            "angle": 95,
+            "radius": 90
+        },
+        "icon": "📱",
+        "sentiment": "mixed",
+        "peakAge": "18-30",
+        "geographic": [
+            "US",
+            "South Korea",
+            "China"
+        ],
+        "actionable": false,
+        "priority": "P3"
+    },
+    {
+        "id": "trend_010",
+        "title": "Barber Shop Quality at Home",
+        "category": "User Experience",
+        "ring": "mainstream",
+        "momentum": "stable",
+        "growth": "+12%",
+        "signals": {
+            "tiktok": "67M views",
+            "reddit": "19K discussions",
+            "google": "Steady"
+        },
+        "opportunity": "Content series: Professional techniques tutorial",
+        "relevance": 9.5,
+        "position": {
+            "angle": 220,
+            "radius": 25
+        },
+        "icon": "💈",
+        "sentiment": "positive",
+        "peakAge": "All ages",
+        "geographic": [
+            "Global"
+        ],
+        "actionable": true,
+        "priority": "P1"
+    }
+]

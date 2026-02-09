@@ -1,0 +1,47 @@
+[
+    {
+        "id": "trend_001",
+        "name": "Wellness-Integrated Grooming",
+        "description": "Consumers integrating grooming into wellness routines (cold plunge, sauna, meditation)",
+        "momentum": "rising",
+        "impactScore": 8.3,
+        "relatedSignals": [
+            "sig_002"
+        ],
+        "timeDetected": "2026-01-15T10:00:00Z"
+    },
+    {
+        "id": "trend_002",
+        "name": "Sustainable Grooming Products",
+        "description": "Growing demand for eco-friendly blades and packaging",
+        "momentum": "rising",
+        "impactScore": 7.1,
+        "relatedSignals": [
+            "sig_003"
+        ],
+        "timeDetected": "2026-01-20T14:30:00Z"
+    },
+    {
+        "id": "trend_003",
+        "name": "Smart Personal Care Devices",
+        "description": "Expectation for app connectivity and personalization in grooming tools",
+        "momentum": "stable",
+        "impactScore": 6.9,
+        "relatedSignals": [
+            "sig_005",
+            "sig_009"
+        ],
+        "timeDetected": "2025-12-10T08:00:00Z"
+    },
+    {
+        "id": "trend_004",
+        "name": "Travel-Optimized Grooming",
+        "description": "Demand for compact, airport-friendly grooming solutions",
+        "momentum": "stable",
+        "impactScore": 6.5,
+        "relatedSignals": [
+            "sig_004"
+        ],
+        "timeDetected": "2026-01-05T16:45:00Z"
+    }
+]
